@@ -100,6 +100,11 @@
     padding: 15px;
   }
 }
+@media (max-width: 650px) {
+  .team__post {
+    width: 100px;
+  }
+}
 @media (max-width: 450px) {
   .header__title {
     font-size: 36px;
