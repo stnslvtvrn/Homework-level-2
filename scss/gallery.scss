@@ -13,8 +13,25 @@
         &:hover {
             opacity: 0.5;
         }
+        &:hover .gallery__text{
+            display: block;
+        }
     }
+    &__text {
+        position: absolute;
+        top: 44%;
+        left: 28%;
+        z-index: 100;
+        color: #fff;
+        display: none;
+    }
+    
 }
 .wrap {
     background-color: red;
+    position: relative;
+    z-index: 1;
+    &:hover .gallery__text{
+        display: block;
+    }
 }

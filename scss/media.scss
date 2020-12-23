@@ -98,6 +98,13 @@
         }
     }
 }
+@media (max-width: 650px) {
+    .team {
+        &__post {
+            width: 100px;
+        }
+    }
+}
 @media (max-width: 450px) {
     .header {
         &__title {
@@ -138,3 +145,4 @@
         }
     }
 }
+
