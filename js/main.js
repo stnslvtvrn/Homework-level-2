@@ -5,6 +5,7 @@ $(function () {
     $('.menu__btn').on('click', function () {
         $('.center-wrapper').toggleClass('center-wrapper_hidden')
     })
+    
     $('.susan__about').slick({
         dots: true,
         arrows: false,
