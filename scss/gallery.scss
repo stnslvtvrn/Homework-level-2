@@ -16,7 +16,7 @@
     opacity: 1;
 }
 .textwrap:hover + .gallery__img {
-    opacity: 0.5;
+    opacity: 0.1;
 }
 .gallery {
     position: relative;
@@ -56,7 +56,7 @@
     }
 }
 .wrap {
-    background-color: red;
+    background-color: rgb(232, 69, 69);
     position: relative;
     z-index: 1;
 }
